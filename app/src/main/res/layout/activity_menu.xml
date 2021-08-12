@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.MaterialComponents.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                tools:ignore="PrivateResource">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:text="COMPLETION JOB"
+                            android:drawableLeft="@drawable/ic_check"
+                            android:drawablePadding="14dp"
+                            android:padding="@dimen/default_margin"
+                            android:layout_gravity="start|center"/>
+
+                        <ImageButton
+                            android:id="@+id/ib_infoCompletion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:scaleType="fitCenter"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="@dimen/default_margin"
+                            android:contentDescription="@null"
+                            android:layout_gravity="end|center"
+                            app:srcCompat="@drawable/ic_info"/>
+
+                    </FrameLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:id="@+id/mb_menuCompletion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="start"
+                        android:layout_margin="@dimen/default_half_margin"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.MaterialComponents.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                tools:ignore="PrivateResource">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:text="MOVE ONHAND"
+                            android:drawableLeft="@drawable/ic_build"
+                            android:drawablePadding="14dp"
+                            android:padding="@dimen/default_margin"
+                            android:layout_gravity="start|center"/>
+
+                        <ImageButton
+                            android:id="@+id/ib_infoMoveOH"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:scaleType="fitCenter"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="@dimen/default_margin"
+                            android:contentDescription="@null"
+                            android:layout_gravity="end|center"
+                            app:srcCompat="@drawable/ic_info"/>
+
+                    </FrameLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:id="@+id/mb_menuMoveOH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="start"
+                        android:layout_margin="@dimen/default_half_margin"
+                        android:layout_gravity="end"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_infoBottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/white"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        app:behavior_hideable="true">
+
+        <FrameLayout
+            android:background="@drawable/round_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/mt_titleInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                style="@style/TextViewMedium"
+                android:text="Info"
+                android:textAlignment="center"
+                android:drawablePadding="8dp"
+                android:layout_gravity="center"
+                android:padding="@dimen/default_margin"/>
+
+            <ImageButton
+                android:id="@+id/ib_closeInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitCenter"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/default_margin"
+                android:contentDescription="@null"
+                android:layout_gravity="end|center"
+                app:srcCompat="@drawable/ic_keyboard_arrow_down"/>
+
+        </FrameLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mt_descInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:layout_gravity="start|center"
+            android:includeFontPadding="false"
+            android:padding="@dimen/default_margin"/>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

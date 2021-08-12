@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ERP</string>
+    <string name="login" translatable="false">Sign In</string>
+</resources>

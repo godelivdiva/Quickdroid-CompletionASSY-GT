@@ -1,0 +1,253 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:1-176:12
+	package
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:17:5-46
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:20:5-32
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:19:5-30
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:18:5-35
+uses-permission#android.permission.CAMERA
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:22:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:24:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:25:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:26:5-72
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:26:22-69
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:28:5-93
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:28:22-90
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:31:22-73
+uses-feature#android.hardware.camera.any
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:37:5-64
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:37:19-61
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:42:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:44:5-70
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:44:19-67
+uses-feature#android.hardware.wifi
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:45:5-47:36
+	android:required
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:47:9-33
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:46:9-45
+application
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:49:5-174:19
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:51:9-41
+	android:allowBackup
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:50:9-35
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:52:9-113:20
+	android:clearTaskOnLaunch
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:54:13-45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:55:13-42
+	android:windowSoftInputMode
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:57:13-60
+	android:theme
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:56:13-48
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:53:13-44
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:58:13-60:29
+action#android.intent.action.MAIN
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:59:25-66
+intent-filter#action:name:com.google.zxing.client.android.SCAN+category:name:android.intent.category.DEFAULT
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:61:13-64:29
+action#com.google.zxing.client.android.SCAN
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:62:17-79
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:62:25-76
+category#android.intent.category.DEFAULT
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:63:17-76
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:63:27-73
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:zxing.appspot.com+data:path:/scan+data:scheme:http
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:66:13-76:29
+action#android.intent.action.VIEW
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:67:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:70:27-75
+data
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:72:17-75:45
+	android:path
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:74:21-41
+	android:host
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:73:21-53
+	android:scheme
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:75:21-42
+	android:mimeType
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:129:23-54
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.com+data:path:/m/products/scan+data:scheme:http
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:78:13-88:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.google.co.uk+data:path:/m/products/scan+data:scheme:http
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:90:13-100:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:scan+data:path:/+data:scheme:zxing
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:102:13-112:29
+activity#com.google.zxing.client.android.PreferencesActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:114:9-117:45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:117:13-42
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:116:13-53
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:115:13-48
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:118:9-137:20
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:120:13-42
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:119:13-50
+intent-filter#action:name:com.google.zxing.client.android.ENCODE+category:name:android.intent.category.DEFAULT
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:121:13-124:29
+action#com.google.zxing.client.android.ENCODE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:122:17-81
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:122:25-78
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/x-vcard
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:126:13-130:29
+action#android.intent.action.SEND
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:127:17-69
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:127:25-66
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:132:13-136:29
+activity#com.google.zxing.client.android.book.SearchBookContentsActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:138:9-147:20
+	android:screenOrientation
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:141:13-56
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:142:13-42
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:140:13-45
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:139:13-60
+intent-filter#action:name:com.google.zxing.client.android.SEARCH_BOOK_CONTENTS+category:name:android.intent.category.DEFAULT
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:143:13-146:29
+action#com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:144:17-95
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:144:25-92
+activity#com.google.zxing.client.android.share.ShareActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:148:9-156:20
+	android:screenOrientation
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:150:13-45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:151:13-42
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:149:13-48
+intent-filter#action:name:com.google.zxing.client.android.SHARE+category:name:android.intent.category.DEFAULT
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:152:13-155:29
+action#com.google.zxing.client.android.SHARE
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:153:17-80
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:153:25-77
+activity#com.google.zxing.client.android.history.HistoryActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:157:9-160:45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:160:13-42
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:159:13-50
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:158:13-52
+activity#com.google.zxing.client.android.share.BookmarkPickerActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:161:9-164:45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:164:13-42
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:163:13-57
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:162:13-57
+activity#com.google.zxing.client.android.share.AppPickerActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:165:9-168:45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:168:13-42
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:167:13-52
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:166:13-52
+activity#com.google.zxing.client.android.HelpActivity
+ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:169:9-173:45
+	android:screenOrientation
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:172:13-45
+	android:stateNotNeeded
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:173:13-42
+	android:label
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:171:13-46
+	android:name
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml:170:13-41
+uses-sdk
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		ADDED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
+		INJECTED from /home/monitor/AndroidChangeLogin/Completion ASSY GT/zxing/src/main/AndroidManifest.xml
